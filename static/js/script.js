@@ -118,3 +118,7 @@ AOS.init();
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }

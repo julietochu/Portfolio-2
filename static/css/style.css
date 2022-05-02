@@ -36,7 +36,7 @@ p {
 
 #main-btn:focus,
 #main-btn:hover {
-    background-color: rgb(96,109,158, 0.78);
+    background-color: rgba(51, 62, 105, 0.78);
     color: white;
 }
 
@@ -773,4 +773,8 @@ a:hover {
             url("../images/background.jpg") center;
         background-size: cover;
     }
+}
+.scroll {
+    
+    overflow-y: auto;
 }
